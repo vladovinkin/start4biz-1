@@ -53,13 +53,15 @@
 }
 
 .header-up {
+    margin: 0 80px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #E3E3E3;
+    position: relative;
 }
 
 .header-up-left {
-    margin: 16px 80px;
+    margin: 16px 0;
 }
 
 .header-up-left-adress {
@@ -73,13 +75,22 @@
     letter-spacing: 1px;
 }
 
+.header-up-logo {
+    width: 40px;
+    display: block;
+    align-self: center;
+    position: absolute;
+    left: calc(50% - 20px);
+}
+
 .header-up-right {
     display: flex;
-    margin: 16px 80px;
+    justify-content: flex-end;
+    margin: 16px 0;
 }
 
 .header-up-right-email {
-    margin: 0 32px;
+    margin-right: 32px;
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -116,28 +127,27 @@
 .header-down {
     display: flex;
     justify-content: space-between;
+    margin: 16px 80px;
     position: relative;
 }
 
-.header-down-main-menu { 
-    margin: 16px 80px;
-}
+/* .header-down-left-menu {} */
 
-.header-down-main-menu-list {
+.header-down-left-menu-list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
-.header-down-main-menu-item {
+.header-down-left-menu-item {
     margin-right: 32px;
 }
 
-.header-down-main-menu-item:last-child {
+.header-down-left-menu-item:last-child {
     margin-right: 0;
 }
 
-.header-down-main-menu-link {
+.header-down-left-menu-link {
     font-family: 'roboto-light', sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -149,46 +159,60 @@
     color: #ffffff;
 }
 
-.header-down-main-menu-link:hover {
+.header-down-left-menu-link:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.header-down-main-menu-link:active {
+.header-down-left-menu-link:active {
     color: #ffffff;
 }
 
-.header-down-main-menu-link:visited {
+.header-down-left-menu-link:visited {
     color: #ffffff;
 }
 
-.header-down-logo {
+.header-down-lk {
     display: block;
+    width: 10%;
+    align-self: center;
+    font-family: 'roboto-light', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
     position: absolute;
-    top: calc(50% - 15px);
-    left: calc(50% - 20px);
+    left: 45%;
 }
 
-.header-down-links {
-    margin: 16px 80px;
+.header-down-lk:hover {
+    text-decoration: underline;
 }
 
-.header-down-links-list {
+/* .header-down-right-menu {} */
+
+.header-down-right-menu-list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: flex-end;
 }
 
-.header-down-links-item {
-    margin-left: 32px;
+.header-down-right-menu-item {
+    margin-right: 32px;
 }
 
-.header-down-links-item:first-child {
-    margin-left: 0px;
+.header-down-right-menu-item:last-child {
+    margin-right: 0px;
 }
 
-.header-down-links-link {
+.header-down-right-menu-link {
     font-family: 'roboto-light', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -200,16 +224,16 @@
     color: #ffffff;
 }
 
-.header-down-links-link:hover {
+.header-down-right-menu-link:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.header-down-links-link:active {
+.header-down-right-menu-link:active {
     color: #ffffff;
 }
 
-.header-down-links-link:visited {
+.header-down-right-menu-link:visited {
     color: #ffffff;
 }
 
@@ -233,7 +257,6 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 2px;
-    text-transform: uppercase;
     color: #333333;
 }
 
@@ -287,8 +310,7 @@
 }
 
 .about-ask-question-button:hover {
-    background: rgba(50, 50, 50, 0.3);
-    color: #ffffff;
+    background: #2B3349;
 }
 
 .about-ask-question-button-text {
