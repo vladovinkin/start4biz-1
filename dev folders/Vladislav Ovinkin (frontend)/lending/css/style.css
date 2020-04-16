@@ -349,6 +349,8 @@
     font-style: normal;
     font-size: 24px;
     line-height: 48px;
+    margin-bottom: 50px;
+    color: #333333;
 }
 
 .contacts-text-contact {
@@ -357,7 +359,20 @@
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.contacts-text-address {
+    margin: 40px 0 10px;
+    font-family: 'roboto-light', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #333333;
 }
 
 .contacts-text-email {
