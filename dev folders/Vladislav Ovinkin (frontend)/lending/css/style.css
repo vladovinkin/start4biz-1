@@ -75,12 +75,15 @@
     letter-spacing: 1px;
 }
 
-.header-up-logo {
-    width: 40px;
+.header-up-logo-link {
     display: block;
     align-self: center;
     position: absolute;
     left: calc(50% - 20px);
+}
+
+.header-up-logo {
+    width: 40px;
 }
 
 .header-up-right {
