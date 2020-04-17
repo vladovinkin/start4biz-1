@@ -240,7 +240,15 @@
     color: #ffffff;
 }
 
-/* Контент страницы "О проекте" и "Контакты" */
+/* контент главной страницы */
+
+.content-main {
+    margin-top: 100px;
+    padding-bottom: 190px;
+    background-color:#efefef;
+}
+
+/* контент страницы "О проекте" и "Контакты" */
 
 .content-about {
     margin-top: 100px;
@@ -437,18 +445,14 @@
 .content-2business {
     margin: 170px 80px 70px;
     background-color:#efefef;
-    /* font-family: 'nunitosans-semibold', sans-serif;
-    text-align: justify; */
 }
 
 /* Контент страницы "Финансовым организациям" */
 
 .content-2finorg {
     margin-top: 100px;
-    /* padding-bottom: 190px;
+    padding-bottom: 190px;
     background-color:#efefef;
-    font-family: 'nunitosans-semibold', sans-serif;
-    text-align: justify; */
 }
 
 /* Футер */
