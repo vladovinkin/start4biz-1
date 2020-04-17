@@ -240,12 +240,12 @@
     color: #ffffff;
 }
 
-.content {
+/* Контент страницы "О проекте" и "Контакты" */
+
+.content-about {
     margin-top: 100px;
     padding-bottom: 190px;
     background-color:#efefef;
-    font-family: 'nunitosans-semibold', sans-serif;
-    text-align: justify;
 }
 
 /* .about {} */
@@ -261,6 +261,13 @@
     line-height: 28px;
     letter-spacing: 2px;
     color: #333333;
+}
+
+.anchor:before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin: -120px 0 0;
 }
 
 .about-article {
@@ -279,6 +286,8 @@
 }
 
 .about-article-text {
+    margin-top: 0;
+    margin-bottom: 25px;
     font-family: 'roboto-light', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -286,6 +295,10 @@
     font-size: 18px;
     line-height: 25px;
     color: #333333;
+}
+
+.about-article-text:last-child {
+    margin-bottom: 0;
 }
 
 .about-article-url {
@@ -346,6 +359,7 @@
 }
 
 .contacts-text-header {
+    margin-top: 0;
     margin-bottom: 50px;
     font-family: 'roboto-light', sans-serif;
     font-weight: normal;
@@ -417,6 +431,27 @@
 .contacts-text-map-see:visited {
     text-decoration: none;
 }
+
+/* Контент страницы "Бизнесу" */
+
+.content-2business {
+    margin: 170px 80px 70px;
+    background-color:#efefef;
+    /* font-family: 'nunitosans-semibold', sans-serif;
+    text-align: justify; */
+}
+
+/* Контент страницы "Финансовым организациям" */
+
+.content-2finorg {
+    margin-top: 100px;
+    /* padding-bottom: 190px;
+    background-color:#efefef;
+    font-family: 'nunitosans-semibold', sans-serif;
+    text-align: justify; */
+}
+
+/* Футер */
 
 .main-footer {
     padding: 20px 80px;
