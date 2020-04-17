@@ -279,7 +279,7 @@
 }
 
 .about-article {
-    margin-left: 80px;
+    margin: 0 228px 0 80px;
     display: flex;
 }
 
@@ -290,7 +290,7 @@
 }
 
 .about-article-text-block {
-    margin: 0 288px 0 60px;
+    margin-left: 60px;
 }
 
 .about-article-text {
@@ -319,7 +319,7 @@
 }
 
 .about-ask-question-button {
-    margin: 40px 360px 0;
+    margin: 40px 360px 110px;
     padding: 7px 22px;
     width: 146px;
     display: block;
@@ -347,9 +347,9 @@
 }
 
 .h-line {
-    margin: 139px auto 0;
+    margin: 0 auto;
     width: 1210px;
-    height: 1px;
+    height: 2px;
     background: #000000;
 }
 
@@ -443,8 +443,124 @@
 /* Контент страницы "Бизнесу" */
 
 .content-2business {
-    margin: 170px 80px 70px;
+    margin-top: 100px;
+    padding: 70px 80px;
     background-color:#efefef;
+}
+
+.to-business {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 224px;
+}
+
+/* .to-business-block {} */
+
+.to-business-header {
+    margin: 0 0 40px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.to-business-text {
+    margin-bottom: 30px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+
+.to-business-list {
+    list-style: none;
+}
+
+.to-business-item {
+    margin-bottom: 17px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+    position: relative;
+}
+
+.to-business-item:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    background-image: url(../img/list-marker.png);
+}
+
+
+.to-business-img {
+    display: block;
+    margin-left: 150px;
+}
+
+.why-we {
+    padding-top: 70px;
+}
+
+.why-we-header {
+    margin: 0 0 50px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.why-we-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.why-we-item {
+    margin-bottom: 120px;
+    width: 590px;
+}
+
+/* .why-we-article {} */
+
+.why-we-article-img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.why-we-article-header {
+    margin: 0 0 15px;
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.why-we-article-text {
+    font-family: 'roboto-light', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
 }
 
 /* Контент страницы "Финансовым организациям" */
