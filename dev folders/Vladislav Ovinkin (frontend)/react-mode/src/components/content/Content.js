@@ -2,6 +2,7 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import ToBusiness from './../toBusiness/ToBusiness';
 import ToFinorg from './../toFinorg/ToFinorg';
+import About from './../about/About';
 import './content.css';
 
 function Content() {
@@ -9,7 +10,9 @@ function Content() {
         <div className="content-main">
             <Switch>
                 <Route path="/about">
-                    it's about
+                    <div className="content-about">
+                        <About />
+                    </div>
                 </Route>
                 <Route path="/toBusiness">
                     <div className="content-2business">
