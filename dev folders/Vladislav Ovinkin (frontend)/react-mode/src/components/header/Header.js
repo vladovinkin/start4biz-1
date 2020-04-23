@@ -1,6 +1,7 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './header.css';
-import logoImage from './img/pre-logo.png';
+import logoImage from './../../img/pre-logo.png';
 
 function Header() {
     return (
@@ -23,8 +24,8 @@ function Header() {
             <nav className="header-down-left-menu">
                 <ul className="header-down-left-menu-list">
                     <li className="header-down-left-menu-item"><a href="about-contacts.html#about" className="header-down-left-menu-link">О проекте</a></li>
-                    <li className="header-down-left-menu-item"><a href="2business.html" className="header-down-left-menu-link">Бизнесу</a></li>
-                    <li className="header-down-left-menu-item"><a href="2finorg.html" className="header-down-left-menu-link">Финансовым организациям</a></li>
+                    <li className="header-down-left-menu-item"><Link to="/toBusiness" className="header-down-left-menu-link">Бизнесу</Link></li>
+                    <li className="header-down-left-menu-item"><Link to="/toFinorg" className="header-down-left-menu-link">Финансовым организациям</Link></li>
                     <li className="header-down-left-menu-item"><a href="about-contacts.html#contacts" className="header-down-left-menu-link">Контакты</a></li>
                 </ul>
             </nav>

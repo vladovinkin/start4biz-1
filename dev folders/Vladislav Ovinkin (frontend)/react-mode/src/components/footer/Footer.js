@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './footer.css';
 import './../../font-awesome.min.css';
 
@@ -9,8 +10,8 @@ function Footer() {
                 <div className="footer-info-left">
                     <ul className="footer-info-left-list">
                         <li className="footer-info-left-item"><a href="about-contacts.html#about" className="footer-info-left-link">О проекте</a></li>
-                        <li className="footer-info-left-item"><a href="2finorg.html" className="footer-info-left-link">Финансовым организациям</a></li>
-                        <li className="footer-info-left-item"><a href="2business.html" className="footer-info-left-link">Бизнесу</a></li>
+                        <li className="footer-info-left-item"><Link to="/toFinorg" className="footer-info-left-link">Финансовым организациям</Link></li>
+                        <li className="footer-info-left-item"><Link to="/toBusiness" className="footer-info-left-link">Бизнесу</Link></li>
                         <li className="footer-info-left-item"><a href="about-contacts.html#contacts" className="footer-info-left-link">Контакты</a></li>
                     </ul>
                 </div>
