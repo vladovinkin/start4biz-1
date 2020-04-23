@@ -9,18 +9,18 @@ function Footer() {
             <div className="footer-info">
                 <div className="footer-info-left">
                     <ul className="footer-info-left-list">
-                        <li className="footer-info-left-item"><a href="about-contacts.html#about" className="footer-info-left-link">О проекте</a></li>
+                        <li className="footer-info-left-item"><Link href="about-contacts.html#about" className="footer-info-left-link">О проекте</Link></li>
                         <li className="footer-info-left-item"><Link to="/toFinorg" className="footer-info-left-link">Финансовым организациям</Link></li>
                         <li className="footer-info-left-item"><Link to="/toBusiness" className="footer-info-left-link">Бизнесу</Link></li>
-                        <li className="footer-info-left-item"><a href="about-contacts.html#contacts" className="footer-info-left-link">Контакты</a></li>
+                        <li className="footer-info-left-item"><Link href="about-contacts.html#contacts" className="footer-info-left-link">Контакты</Link></li>
                     </ul>
                 </div>
                 <div className="footer-info-right">
                     <ul className="footer-info-right-list">
-                        <li className="footer-info-right-item"><a href="#" className="footer-info-right-link">Политика конфиденциальности</a></li>
-                        <li className="footer-info-right-item"><a href="#" className="footer-info-right-link">Пользовательское соглашение</a></li>
-                        <li className="footer-info-right-item"><a href="#" className="footer-info-right-link">Согласие на обработку персональных данных</a></li>
-                        <li className="footer-info-right-item"><a href="#" className="footer-info-right-link">Форма обратной связи</a></li>
+                        <li className="footer-info-right-item"><Link to="/" className="footer-info-right-link">Политика конфиденциальности</Link></li>
+                        <li className="footer-info-right-item"><Link to="/" className="footer-info-right-link">Пользовательское соглашение</Link></li>
+                        <li className="footer-info-right-item"><Link to="/" className="footer-info-right-link">Согласие на обработку персональных данных</Link></li>
+                        <li className="footer-info-right-item"><Link to="/" className="footer-info-right-link">Форма обратной связи</Link></li>
                     </ul>
                 </div>
             </div>
