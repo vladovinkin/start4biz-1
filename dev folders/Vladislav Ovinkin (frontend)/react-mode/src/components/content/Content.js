@@ -1,27 +1,30 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
+import ToBusiness from './../toBusiness/ToBusiness';
+import ToFinorg from './../toFinorg/ToFinorg';
 import './content.css';
-
 
 function Content() {
     return (
         <div className="content-main">
-            <BrowserRouter>
-                <Switch>
-                    <Route path="/about">
-                        it's about
-                    </Route>
-                    <Route path="/toBusiness">
-                        it's toBusiness
-                    </Route>
-                    <Route path="/toFinorg">
-                        it's toFinorg
-                    </Route>
-                    <Route path="/">
-                        it's index
-                    </Route>
-                </Switch>
-            </BrowserRouter>
+            <Switch>
+                <Route path="/about">
+                    it's about
+                </Route>
+                <Route path="/toBusiness">
+                    <div className="content-2business">
+                        <ToBusiness />
+                    </div>
+                </Route>
+                <Route path="/toFinorg">
+                    <div className="content-2finorg">
+                        <ToFinorg />
+                    </div>
+                </Route>
+                <Route path="/">
+                    it's UNDER CONSTRUCTION
+                </Route>
+            </Switch>
         </div>
     );
 }
