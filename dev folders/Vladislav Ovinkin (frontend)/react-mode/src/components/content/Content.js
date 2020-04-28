@@ -1,5 +1,6 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
+import Uc from './../uc/Uc';
 import ToBusiness from './../toBusiness/ToBusiness';
 import ToFinorg from './../toFinorg/ToFinorg';
 import About from './../about/About';
@@ -24,8 +25,13 @@ function Content() {
                         <ToFinorg />
                     </div>
                 </Route>
+                <Route path="/uc">
+                    <Uc />
+                </Route>
                 <Route path="/">
-                    it's UNDER CONSTRUCTION
+                    {/* <div className="content-main">
+                        <Main />
+                    </div> */}
                 </Route>
             </Switch>
         </div>
