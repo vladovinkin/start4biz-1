@@ -1,5 +1,5 @@
 .main-header {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background:#EFF3F5;
     display: flex;
@@ -135,13 +135,14 @@
     padding: 0;
     list-style: none;
     display: flex;
+    flex-wrap: nowrap;
 }
 .header-down-main-menu-item {
     margin-left: 68px;
 }
 
 .header-down-main-menu-item:first-child {
-    margin-left: 0;
+    margin-left: 190px;
 }
 
 .header-down-main-menu-link {
@@ -158,6 +159,7 @@
     text-align: center;
     letter-spacing: 1px;
     color: #000000;
+    word-wrap: normal;
 }
 
 .header-down-main-menu-link:hover {

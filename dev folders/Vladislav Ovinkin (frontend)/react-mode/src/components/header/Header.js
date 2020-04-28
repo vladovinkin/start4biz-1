@@ -6,11 +6,11 @@ function Header() {
     return (
         <header className="main-header">
             <div className="header-up">
-                <span className="header-up-adress">Санкт-Петербург, пл. Карла Фаберже, д8</span>
+                <span className="header-up-adress">Санкт&#8209;Петербург,&nbsp;пл.&nbsp;Карла&nbsp;Фаберже,&nbsp;д8</span>
                 <a className="header-up-email" href="mailto:info@start4.biz" title="Написать письмо"><span className="header-up-email-text">info@start4.biz</span></a>
-                <a className="header-up-phone" href="tel:+79111299351" title="Просто позвоните нам!"><span className="header-up-phone-text">+7 911 129-93-51</span></a>
+                <a className="header-up-phone" href="tel:+79111299351" title="Просто позвоните нам!"><span className="header-up-phone-text">+7&nbsp;911&nbsp;129&#8209;93&#8209;51</span></a>
                 <Link className="header-up-button" to="/uc" title="Войти в личный кабинет">
-                    <span className="header-up-button-text">Личный кабинет</span>
+                    <span className="header-up-button-text">Личный&nbsp;кабинет</span>
                 </Link>
 
                 <Link className="header-logo-image-link" to="/" title="На главную">
@@ -35,16 +35,16 @@ function Header() {
             <div className="header-down">
                 <nav className="header-down-main-menu">
                     <ul className="header-down-main-menu-list">
-                        <li className="header-down-main-menu-item"><Link to="/uc" className="header-down-main-menu-link" title="О проекте">
+                        <li className="header-down-main-menu-item"><Link to="/about" className="header-down-main-menu-link" title="О проекте">
                             <span className="header-down-main-menu-link-text">
-                                О проекте
+                                О&nbsp;проекте
                             </span>
                         </Link></li>
-                        <li className="header-down-main-menu-item"><Link to="/uc" className="header-down-main-menu-link" title="Контакты">
+                        <li className="header-down-main-menu-item"><Link to="/contacts" className="header-down-main-menu-link" title="Контакты">
                             <span className="header-down-main-menu-link-text">Контакты</span>
                         </Link></li>
                         <li className="header-down-main-menu-item"><Link to="/uc" className="header-down-main-menu-link" title="Финансовым организациям">
-                            <span className="header-down-main-menu-link-text">Финансовым организациям</span>
+                            <span className="header-down-main-menu-link-text">Финансовым&nbsp;организациям</span>
                         </Link></li>
                         <li className="header-down-main-menu-item"><Link to="/uc" className="header-down-main-menu-link" title="Бизнесу">
                             <span className="header-down-main-menu-link-text">Бизнесу</span>
