@@ -8,10 +8,10 @@ function Footer() {
         <div className="footer-left">
             <ul className="footer-left-list">
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
-                    <span className="footer-left-list-link-text">О проекте</span>
+                    <span className="footer-left-list-link-text">О&nbsp;проекте</span>
                 </Link></li>
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
-                    <span className="footer-left-list-link-text">Финансовым организациям</span>
+                    <span className="footer-left-list-link-text">Финансовым&nbsp;организациям</span>
                 </Link></li>
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
                     <span className="footer-left-list-link-text">Бизнесу</span>
@@ -22,16 +22,16 @@ function Footer() {
             </ul>
             <ul className="footer-left-list">
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
-                    <span className="footer-left-list-link-text">Политика конфиденциальности</span>
+                    <span className="footer-left-list-link-text">Политика&nbsp;конфиденциальности</span>
                 </Link></li>
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
-                    <span className="footer-left-list-link-text">Пользовательское соглашение</span>
+                    <span className="footer-left-list-link-text">Пользовательское&nbsp;соглашение</span>
                 </Link></li>
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
-                    <span className="footer-left-list-link-text">Согласие на обработку персональных данных</span>
+                    <span className="footer-left-list-link-text">Согласие&nbsp;на&nbsp;обработку&nbsp;персональных&nbsp;данных</span>
                 </Link></li>
                 <li className="footer-left-list-item"><Link to="/uc" className="footer-left-list-link">
-                    <span className="footer-left-list-link-text">Форма обратной связи</span>
+                    <span className="footer-left-list-link-text">Форма&nbsp;обратной&nbsp;связи</span>
                 </Link></li>
             </ul>
         </div>
@@ -71,7 +71,7 @@ function Footer() {
                 <a className="footer-email" href="mailto:info@start4.biz" title="Написать письмо">
                     <span className="footer-email-text">info@start4.biz</span></a>
                 <a className="footer-phone" href="tel:+79111299351" title="Просто позвоните нам!">
-                    <span className="footer-phone-text">+7 911 129-93-51</span></a>
+                    <span className="footer-phone-text">+7&nbsp;911&nbsp;129&#8209;93&#8209;51</span></a>
             </ul>
         </div>
     </footer>   
