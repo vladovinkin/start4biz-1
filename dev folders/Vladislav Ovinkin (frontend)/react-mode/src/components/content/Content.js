@@ -10,7 +10,12 @@ function Content() {
     return (
         <div className="content-main">
             <Switch>
-                <Route path="/about">
+                <Route path="/About">
+                    <div className="content-about">
+                        <About />
+                    </div>
+                </Route>
+                <Route path="/Contacts">
                     <div className="content-about">
                         <About />
                     </div>
@@ -29,9 +34,7 @@ function Content() {
                     <Uc />
                 </Route>
                 <Route path="/">
-                    {/* <div className="content-main">
-                        <Main />
-                    </div> */}
+                    {/* <Main /> */}
                 </Route>
             </Switch>
         </div>
