@@ -1,8 +1,3 @@
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .block1 {
     background: #DFDFDF;
     display: flex;
