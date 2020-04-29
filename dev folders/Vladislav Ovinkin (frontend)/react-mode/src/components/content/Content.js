@@ -5,6 +5,7 @@ import ToBusiness from './../toBusiness/ToBusiness';
 import ToFinorg from './../toFinorg/ToFinorg';
 import About from '../About/About';
 import BestDealBlock from './../BestDealBlock/BestDealBlock';
+import WorkStepContainer from './../../containers/WorkStepContainer';
 import Questions from './../Questions/Questions';
 import PartnersBlock from './../PartnersBlock/PartnersBlock';
 import './content.css';
@@ -39,6 +40,7 @@ function Content() {
                 <Route path="/">
                     <Fragment>
                         <BestDealBlock />
+                        <WorkStepContainer />
                         <Questions />
                         <PartnersBlock />
                     </Fragment>
