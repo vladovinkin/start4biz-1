@@ -8,6 +8,7 @@ import BestDealBlock from './../BestDealBlock/BestDealBlock';
 import WorkStepContainer from './../../containers/WorkStepContainer';
 import Questions from './../Questions/Questions';
 import PartnersBlock from './../PartnersBlock/PartnersBlock';
+import Policy from './../Policy/Policy';
 import './content.css';
 
 function Content() {
@@ -32,6 +33,11 @@ function Content() {
                 <Route path="/toFinorg">
                     <div className="content-2finorg">
                         <ToFinorg />
+                    </div>
+                </Route>
+                <Route path="/Policy">
+                    <div className="content-policy">
+                        <Policy />
                     </div>
                 </Route>
                 <Route path="/uc">
