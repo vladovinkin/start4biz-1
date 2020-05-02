@@ -1,15 +1,15 @@
 import React, { Fragment } from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Uc from './../uc/Uc';
-import ToBusiness from './../toBusiness/ToBusiness';
-import ToFinorg from './../toFinorg/ToFinorg';
+import Uc from './../Uc/Uc';
+import ToBusiness from './../ToBusiness/ToBusiness';
+import ToFinorg from './../ToFinorg/ToFinorg';
 import About from '../About/About';
 import BestDealBlock from './../BestDealBlock/BestDealBlock';
 import WorkStepContainer from './../../containers/WorkStepContainer';
 import Questions from './../Questions/Questions';
 import PartnersBlock from './../PartnersBlock/PartnersBlock';
 import Policy from './../Policy/Policy';
-import './content.css';
+import './Content.css';
 
 function Content() {
     return (

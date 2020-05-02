@@ -3,7 +3,7 @@ import React from 'react';
  * FormQuestionContainer компонент форма
  */
 // import FormQuestionContainer from './../../containers/FormQestionContainer';
-import './index.css';
+import './WorkStep.css';
 /**
  * Элемент шагов работы компании 
  * @param boolean булево значение по умолчанию false

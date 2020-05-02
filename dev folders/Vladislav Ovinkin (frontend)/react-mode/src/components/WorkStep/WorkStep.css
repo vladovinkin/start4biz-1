@@ -33,23 +33,23 @@
    height: 74px;
 }
 .work-step__img-applications {
-   background-image: url(./img/filing_an_application.png);
+   background-image: url(./../../img/filing_an_application.png);
    background-repeat: no-repeat;
 }
 .work-step__img-sentence {
-   background-image: url(./img/search_applications.png);
+   background-image: url(./../../img/search_applications.png);
    background-repeat: no-repeat;
 }
 .work-step__img-terms {
-   background-image: url(./img//offer_search.png);
+   background-image: url(./../../img/offer_search.png);
    background-repeat: no-repeat;
 }
 .work-step__img-documents {
-   background-image: url(./img/Group\ 23.png);
+   background-image: url(./../../img/Group_23.png);
    background-repeat: no-repeat;
 }
 .work-step__img-deal {
-   background-image: url(./img/deal.png);
+   background-image: url(./../../img/deal.png);
    background-repeat: no-repeat;
 }
 
@@ -89,4 +89,3 @@
    line-height: 16px;
    color: #FFFFFF;
 }
-
